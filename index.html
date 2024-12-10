@@ -4,12 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LastMinutePapillonBis</title>
-    <base href="/" />
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://paliakk.github.io data:;">
+
+    <title>LastMinutePapillon</title>
+    <base href="/LastMinutePapillon/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="LastMinutePapillonBis.styles.css" rel="stylesheet" />
+    <link href="LastMinutePapillon.styles.css" rel="stylesheet" />
     <link href="manifest.webmanifest" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
@@ -31,22 +33,6 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="chart.js"></script>
-    <script src="clipboard.js"></script>
-    <script src="js/service-worker-update.js"></script>
-    <script>
-        // Vérifier si un paramètre "path" est présent dans l'URL
-        const params = new URLSearchParams(window.location.search);
-        const redirectPath = params.get('path');
-
-        if (redirectPath) {
-            // Mettre à jour l'URL sans recharger la page
-            window.history.replaceState({}, '', redirectPath);
-        }
-    </script>
-
-
 </body>
 
 </html>
