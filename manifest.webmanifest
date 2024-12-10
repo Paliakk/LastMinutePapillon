@@ -1,6 +1,6 @@
 {
-  "name": "LastMinutePapillon",
-  "short_name": "LastMinutePapillon",
+  "name": "WebUI",
+  "short_name": "WebUI",
   "id": "./",
   "start_url": "./",
   "display": "standalone",
