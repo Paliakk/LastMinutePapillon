@@ -169,8 +169,8 @@
       "url": "LastMinutePapillon\/WebUI.styles.css"
     },
     {
-      "hash": "sha256-NpX1jE23TJjO4Hmh1wzcfoJ7UKKLdm1NNp3TejOYZnI=",
-      "url": "LastMinutePapillon\/_config.yml"
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "url": "LastMinutePapillon\/.nojekyll"
     },
     {
       "hash": "sha256-ovmQXD\/03doQiP2FkP7rjwZWNdgXXkRk+e0T5YBgMAM=",
@@ -213,5 +213,5 @@
       "url": "LastMinutePapillon\/sample-data\/weather.json"
     }
   ],
-  "version": "bAU9KJhV"
+  "version": "OvR01V01"
 };
