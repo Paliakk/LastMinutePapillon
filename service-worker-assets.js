@@ -173,7 +173,7 @@
       "url": "LastMinutePapillon\/_config.yml"
     },
     {
-      "hash": "sha256-a8FUiun1jGA1fy++LN9spCjzM4v2RieKXrmTMlSyI2k=",
+      "hash": "sha256-ovmQXD\/03doQiP2FkP7rjwZWNdgXXkRk+e0T5YBgMAM=",
       "url": "LastMinutePapillon\/404.html"
     },
     {
@@ -213,5 +213,5 @@
       "url": "LastMinutePapillon\/sample-data\/weather.json"
     }
   ],
-  "version": "UVsG9T7d"
+  "version": "bAU9KJhV"
 };

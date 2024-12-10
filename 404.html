@@ -1,3 +1,6 @@
 ﻿<script>
-    window.location.href = "/mon-app-blazor/" + window.location.pathname;
+    // Redirection pour les routes Blazor sur GitHub Pages
+    var path = window.location.pathname;
+    var redirect = '/LastMinutePapillon/' + path;
+    window.location.href = redirect;
 </script>
